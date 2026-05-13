@@ -6,7 +6,7 @@ AI-powered code completion and chat for VS Code — connect to your own LLM serv
 
 Visit [mtcodeai.com](https://mtcodeai.com) to download the MTCode Server package that matches your GPU brand (Nvidia, AMD, and more to come). **For the administrator** who sets up the server:
 
-1. **Set Up an LLM Server** — Install MTCode Server on the GPU machine. Sign in with your administrator account, select the built-in LLM server, and pick a coding assistant model (such as Qwen2.5-Coder or Qwen3-Coder) that fits your GPU's VRAM. The server will download the model automatically and be ready to serve requests. The server runs on a private network behind a firewall — the [MTCode DirectLink](https://mtcodeai.com/platform/index.html) platform handles connectivity, allowing authorized users to reach it from anywhere on the internet without any port forwarding or VPN.
+1. **Set Up an LLM Server** — Install MTCode Server on the GPU machine. On first launch, click **Create an account** in the login dialog to register your administrator account. Sign in, select the built-in LLM server, and pick a coding assistant model (such as Qwen2.5-Coder or Qwen3-Coder) that fits your GPU's VRAM. The server will download the model automatically and be ready to serve requests. The server runs on a private network behind a firewall — the [MTCode DirectLink](https://mtcodeai.com/platform/index.html) platform handles connectivity, allowing authorized users to reach it from anywhere on the internet without any port forwarding or VPN.
 2. **Invite Users** — In the administrator account, send invitation emails to the users who will access the LLM server. Each user follows the link in the email to create their own account.
 
 **For each user:**
