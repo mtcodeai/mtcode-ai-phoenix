@@ -4,13 +4,16 @@ AI-powered code completion and chat for VS Code — connect to your own LLM serv
 
 ## Quick Start
 
-Visit [mtcodeai.com](https://mtcodeai.com) to download the MTCode Server. The built-in MTCode-LLM server program displays a curated list of high-quality open-source models optimized for coding assistance. Select a model that fits your GPU's VRAM capacity, and the server will automatically download it from Hugging Face and be ready for use.
+Visit [mtcodeai.com](https://mtcodeai.com) to download the MTCode Server package that matches your GPU brand (Nvidia, AMD, and more to come). **For the administrator** who sets up the server:
 
-1. **Set Up an LLM Server** — Install and start an MTCode Server with the MTCode-LLM server program. Load a code-optimized model (e.g., Qwen2.5-Coder or Qwen3-Coder) in GGUF format. The server can run locally or remotely — the MTCode Server Platform handles connectivity so the extension can reach your server from anywhere on the Internet.
-2. **Install the Extension** — Install MTCode AI Phoenix from the VS Code marketplace.
-3. **Create an Account & Invite Users** — Register an admin account at mtcodeai.com, add your LLM server from the MTCode Server program, then invite users by granting access. The extension has the MTCode Server Portal built in.
-4. **Connect** — Open the AI Phoenix sidebar, select your server from the dropdown. The status shows "Server Ready" when connected and the model is compatible.
-5. **Start Coding** — Type in any file and AI completions appear automatically. Press `Tab` to accept, `Escape` to dismiss. Use the chat panel to ask questions or generate code.
+1. **Set Up an LLM Server** — Install MTCode Server on the GPU machine. Sign in with your administrator account, select the built-in LLM server, and pick a coding assistant model (such as Qwen2.5-Coder or Qwen3-Coder) that fits your GPU's VRAM. The server will download the model automatically and be ready to serve requests. The server runs on a private network behind a firewall — the [MTCode DirectLink](https://mtcodeai.com/platform/index.html) platform handles connectivity, allowing authorized users to reach it from anywhere on the internet without any port forwarding or VPN.
+2. **Invite Users** — In the administrator account, send invitation emails to the users who will access the LLM server. Each user follows the link in the email to create their own account.
+
+**For each user:**
+
+3. **Install the Extension** — Install MTCode AI Phoenix from the VS Code Marketplace.
+4. **Connect** — Open the AI Phoenix sidebar and click **Login** to enter your user account credentials. The server dropdown lists all LLM servers you have been authorized to use. Select one; the status shows **"Server Ready"** when the connection is established and the model is compatible.
+5. **Start Coding** — AI completions appear automatically as you type. Press `Tab` to accept, `Escape` to dismiss. Use the chat panel to ask questions or generate code snippets.
 
 ## Features
 
